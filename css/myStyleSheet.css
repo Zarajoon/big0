@@ -1,0 +1,490 @@
+html{
+		height: 100%;
+	}
+	body{
+		margin: 0px;
+		height: 100%;
+	}
+
+	#container {
+		margin-top: 0px;
+		height: 100%;
+		width:100%;
+		overflow-y:hidden;
+		overflow-x:scroll;
+		position:relative;
+		display:block;
+		/*background-color:#fc0;*/
+	}
+
+	.block {
+		margin-top: 100px;
+		height:600px;
+		width:960px;
+		display:block;
+		position:absolute;
+		top:0px;
+	}
+
+	#description {
+/*		background-color: #FBEFEF;		
+*/	}
+
+	#beginning{
+		z-index: 10;
+	}
+
+	#Scene2 {
+		z-index: 20;
+	}
+
+	#Scene3 {
+		z-index: 30;
+	}
+
+	#Scene4 {
+		z-index: 40;
+	}
+
+	#Scene5 {
+		z-index: 50;
+	}
+
+	#Scene6 {
+		z-index: 60;
+	}
+
+	#Scene8 {
+		z-index: 70;
+	}
+
+	#Scene9 {
+		z-index: 80;
+	}
+
+	#Scene10 {
+		z-index: 90;
+	}
+
+	#Scene11 {
+		z-index: 100;
+	}	
+
+	#Scene13 {
+		z-index: 110;
+	}	
+
+	#Scene14 {
+		z-index: 120;
+	}
+
+	#Scene15 {
+		z-index: 120;
+	}
+
+	#Scene16 {
+		z-index: 130;
+	}
+
+	#Scene17 {
+		z-index: 140;
+	}			
+
+	h1 {
+		margin-top: 150px;
+		font-family: helvetica;
+		font-size: 2em;
+		font-weight: 100;
+		text-align: center;
+	}
+
+	p {
+		font-family: helvetica;
+		font-size: 1em;
+		font-weight: 100;
+		/*margin-left: 100px;*/
+	}
+
+	.layer1 {
+		margin-top: 200px;
+		display:block;
+		position:absolute;
+		top:0px;
+		/*left:20px;*/
+		z-index: 100;
+		height: auto;
+	}
+
+	#square, #layer2 {
+		transform: scale(0.8,0.8);
+		-webkit-transform: scale(0.8,0.8);
+		margin-top: 0px;
+	}
+
+
+	#square {
+		width: 200px;
+		height: auto;
+		margin-left: 300px;
+		margin-top: 200px;
+		transform-origin: 100% 100%;
+		-webkit-transform-origin: 100% 100%;
+	}
+
+	#trigger4 {
+		width: 500px;
+		height: 100px;
+		margin-top: 0px;
+	}
+
+	#notFit {
+		width: 200px;
+		height: auto;
+		margin-left: 300px;
+		margin-top: 200px;
+		transform-origin: 50% 50%;
+		-webkit-transform-origin: 50% 50%;
+
+	}
+
+	#nothing {
+		width: 250px;
+		height: auto;
+		margin-top: 200px;
+		margin-left: 100px;
+	}
+	#missy, #dontAboutFit, #dontAnything {
+		margin-left: 5px;
+		display:block;
+		position:relative;
+		z-index: 70;
+	}
+
+	 #dontAboutFit{		
+		top:-172px;
+		left:-960;
+	}
+
+	#dontAnything {
+		width: 200px;
+		height: auto;
+
+	}
+
+	#missySharp{
+		width: 100px;
+		margin-left: 30%;
+		margin-top: 300px;
+		transform-origin: 45% 100%;
+		-webkit-transform-origin: 45% 100%;
+	}
+
+	#delicate {
+		width: 200px;
+		position: absolute;
+		top: 138px;
+		left: 358px;
+	}
+
+	.sec {
+		width: 290px;
+		display: inline-block;
+		padding: 10px; 
+		position: relative;
+		height: 400px;
+	}
+
+	#hasLotMiss, #hasLotPiece {
+		transform-origin: 50% 50%;
+		-webkit-transform-origin: 50% 50%;
+	}
+
+	#pedestal {
+		opacity: 0;
+		margin-top: -100px;
+	}
+
+	#lotMiss {
+		top: -95px;
+	}
+
+	#lotPiece {
+		top: -45px;
+	}
+
+
+	.jumppy {
+		width: 150px;
+		position: absolute;
+		display: inline-block;
+		opacity: 0.5;
+	}
+
+	#hungers {
+		height: 150px;
+		width: 400px;
+		position: absolute;
+	}
+
+	#hungers1 {
+		left: 0px;
+
+	}
+
+	#hungers2 {
+		left: 80px;
+		transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
+	}
+
+	#hungers3 {
+		left: 160px;
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+	}
+
+	#hungers4 {
+		left: 250px;
+		transform: rotate(-5deg);
+		-webkit-transform: rotate(-5deg);
+	}
+
+	#missySmall{
+		width: 300px;
+		position: absolute;
+		top: 150px;
+		left: 350px;
+	}
+
+	#line1 {
+		opacity: 0;
+		width: 250px;
+	}
+
+	#line2 {
+		opacity: 0;
+		margin-left:-100px;
+	}
+	#line3 {
+		margin-top: 250px;
+		width: 200px;
+		z-index: 40;
+	}
+
+	#line4 {
+		margin-top: -150px;
+		width: 200px;
+		z-index: 40;	
+	}
+
+	#line4-1, #line4-2{
+	width: 400px;
+	opacity: 1;
+	}
+
+	#line9, #line9-1 {
+		margin-left: 100px;
+	}
+
+	#line9-2 {
+		margin-left: 300px;
+		margin-top: 100px;
+		z-index: 100;
+	}
+
+	#line10, #line10-1 {
+		margin-top: -100px;
+	}
+
+	#line11 {
+		margin-top: -200px;
+	}
+
+	#closeOne{
+		position: absolute;
+		z-index: 200;
+		width: 960px;
+	}
+
+	#notNotice {
+		position: absolute;
+		width: 200px;
+	}
+
+	#floMissy {
+		position: absolute;
+		margin-left: -40px;
+		width: 960px;		
+	}
+
+	#flower {
+		z-index: 110;
+		width: 300px;
+		opacity: 0.5;
+		position: absolute;
+		margin-left: 300px;	
+		margin-top: 87px;
+	}
+
+	#flashy{
+		z-index: 210;
+		width: 500px;
+		position: absolute;	
+		margin-left: 210px;
+		margin-top: -10px;
+		opacity: 1;	
+	}
+
+	#withFit {
+		width: 300px;
+		position: absolute;
+		margin-top: 150px;
+		transform-origin: 30% 40%;
+		-webkit-transform-origin: 30% 40%;
+	}
+
+	#fitMissy {
+		position: absolute;
+	}
+
+	#dialogWithFit {
+		width: 850px;
+		position: absolute;
+		margin-top: 150px;
+	}
+
+	#line13 {
+		width: 300px;
+		margin-top: -150px;
+		position: absolute;
+	}
+
+	#line13-1 {
+		width: 300px;
+		margin-top: 235px;
+		margin-left: 485px;
+		position: absolute;
+	}
+
+	#line13-2 {
+		width: 300px;
+		position: absolute;
+		margin-top: -120px;
+	}
+
+	#fitOneTalk {
+		position: absolute;
+	}	
+
+#TheO, #T {
+	width: 200px;
+	position: absolute;
+}
+
+#TheO {
+	top: 300;
+}
+
+#T {
+	top: 408;
+	left: 300;
+	transform-origin: 0% 100%;
+	-webkit-transform-origin: 0% 100%;
+}
+
+#firstDialog {
+	position: absolute;
+	width: 310px;
+	left: 650;
+	opacity: 0;
+}
+
+#line14-1 {
+	text-align: right;
+
+}
+
+#line16 {
+	opacity: 0;
+}
+
+
+#missyAlone {
+	width: 200px;
+	position: absolute;
+	left: 350;
+	top: 113;
+}
+
+#theOGo {
+	width: 200px;
+	position: absolute;
+	left: 550;
+	transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;	
+}
+
+#secDialog {
+	position: absolute;
+	width: 400px;
+	opacity: 0;
+	left: 580;
+	top: 350;
+}
+
+#missyAloneLonge {
+	width: 200px;
+	position: absolute;
+	left: 480;
+	top: 200;
+	transform-origin: 100% 100%;	
+	-webkit-transform-origin: 100% 100%;	
+
+}
+
+#dialogNar {
+	left:300;
+	top: 105;
+	position: absolute;
+	width: 300px;
+}
+
+#line17, #line17-2 {
+	opacity: 0;
+}
+
+#miss1, #miss2, #miss3 {
+	position: absolute;
+	width: 150;
+	transform-origin: 90% 80%;	
+	-webkit-transform-origin: 90% 80%;
+	opacity:0;
+
+}
+
+#miss2 {
+	left: 300;
+}
+
+#miss3 {
+	left: 600;
+}
+
+#roundMissy {
+	width: 100px;
+	transform-origin: 50% 50%;	
+	-webkit-transform-origin: 50% 50%;
+	position: absolute;
+	opacity: 0;
+	top: 50;	
+}
+
+#TheOEnd {
+	position: absolute;
+	width: 400px;
+	left: 450;
+}
+
+#name {
+	text-align: center;
+}
